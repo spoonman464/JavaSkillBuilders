@@ -17,7 +17,7 @@ public class PrimeNumbers {
 				for(int j = 1; j < primes.size(); j++) {
 					if(cursor % primes.get(j) == 0) {
 						isPrime = false;
-						j = primes.size();
+						j = primes.size(); //cause loop to end on next for loop check
 					}
 				}
 				if(isPrime) primes.add(cursor);

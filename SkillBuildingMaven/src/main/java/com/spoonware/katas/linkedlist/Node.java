@@ -8,6 +8,10 @@ class Node {
         this.value = value;
         this.child = child;
     }
+//    Node(Node n){
+//    	this.value = n.value;
+//    	this.child = n.child;
+//    }
 
     // The string representation of this node.
     // Will be used for testing.

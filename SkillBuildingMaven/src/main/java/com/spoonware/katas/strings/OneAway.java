@@ -1,6 +1,14 @@
 package com.spoonware.katas.strings;
 
 public class OneAway {
+	/*
+	 * 1.5 Given two strings, determine if they are one away from each other.
+	 * 1) you can change one character in one string to make both strings equal
+	 * 2) you can add one character to the shorter string and make them equal
+	 * 3) you can remove one character from the longer string and make them equal
+	 * Hint: 2 and 3 are the same if you always make the longer string the first string and the
+	 * shorter string the second string.
+	 */
 
 	static Boolean isOneAway(String s1, String s2) {
 		boolean results = false;
